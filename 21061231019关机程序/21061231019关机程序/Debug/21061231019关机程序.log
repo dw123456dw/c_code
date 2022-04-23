@@ -1,0 +1,4 @@
+﻿  关机程序.c
+C:\Users\俺选吕小布\source\repos\21061231019关机程序\21061231019关机程序\关机程序.c(12,37): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+C:\Users\俺选吕小布\source\repos\21061231019关机程序\21061231019关机程序\关机程序.c(12,33): warning C4024: “strcmp”: 形参和实参 2 的类型不同
+  21061231019关机程序.vcxproj -> C:\Users\俺选吕小布\source\repos\21061231019关机程序\Debug\21061231019关机程序.exe
