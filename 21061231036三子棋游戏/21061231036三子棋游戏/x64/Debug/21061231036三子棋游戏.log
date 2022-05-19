@@ -1,0 +1,7 @@
+﻿x64\Debug\game1.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+test.obj : error LNK2019: 无法解析的外部符号 initboard，函数 game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 Displayboard，函数 game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 Playermove，函数 game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 Computermove，函数 game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 IsWin，函数 game 中引用了该符号
+D:\git\21061231036三子棋游戏\x64\Debug\21061231036三子棋游戏.exe : fatal error LNK1120: 5 个无法解析的外部命令

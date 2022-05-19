@@ -1,0 +1,3 @@
+﻿  game1.c
+Debug\game1.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  21061231036三子棋游戏.vcxproj -> D:\git\21061231036三子棋游戏\Debug\21061231036三子棋游戏.exe
