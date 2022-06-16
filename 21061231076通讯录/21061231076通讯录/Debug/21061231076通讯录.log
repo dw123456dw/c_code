@@ -1,0 +1,19 @@
+﻿  contact.c
+D:\git\21061231076通讯录\21061231076通讯录\contact.c(73,34): warning C4028: 形参 1 与声明不同
+D:\git\21061231076通讯录\21061231076通讯录\contact.c(94,36): warning C4028: 形参 1 与声明不同
+  test.c
+D:\git\21061231076通讯录\21061231076通讯录\test.c(16,18): warning C4047: “函数”:“contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(16,14): warning C4024: “initcontact”: 形参和实参 1 的类型不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(25,19): warning C4047: “函数”:“contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(25,15): warning C4024: “addcontact”: 形参和实参 1 的类型不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(28,19): warning C4047: “函数”:“contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(28,15): warning C4024: “delcontact”: 形参和实参 1 的类型不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(31,22): warning C4047: “函数”:“const contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(31,18): warning C4024: “searchcontact”: 形参和实参 1 的类型不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(34,22): warning C4047: “函数”:“contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(34,18): warning C4024: “modifycontact”: 形参和实参 1 的类型不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(37,20): warning C4047: “函数”:“const contact *”与“contact (*)[100]”的间接级别不同
+D:\git\21061231076通讯录\21061231076通讯录\test.c(37,16): warning C4024: “showcontact”: 形参和实参 1 的类型不同
+  正在生成代码...
+D:\git\21061231076通讯录\21061231076通讯录\contact.c(47): warning C4715: “findname”: 不是所有的控件路径都返回值
+  21061231076通讯录.vcxproj -> D:\git\21061231076通讯录\Debug\21061231076通讯录.exe
