@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\git\21061231111 C++ 7_27\21061231111 C++ 7_27\test.cpp(51,6): error C2084: 函数“void func(int,int)”已有主体
+D:\git\21061231111 C++ 7_27\21061231111 C++ 7_27\test.cpp(46): message : 参见“func”的前一个定义
+D:\git\21061231111 C++ 7_27\21061231111 C++ 7_27\test.cpp(67,2): error C2065: “func”: 未声明的标识符
