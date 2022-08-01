@@ -1,0 +1,8 @@
+﻿  test.cpp
+D:\git\21061231113 访问权限\21061231113 访问权限\test.cpp(25,1): warning C4305: “参数”: 从“int”到“const _Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+D:\git\21061231113 访问权限\21061231113 访问权限\test.cpp(25,20): warning C4309: “参数”: 截断常量值
+  21061231113 访问权限.vcxproj -> D:\git\21061231113 访问权限\Debug\21061231113 访问权限.exe
