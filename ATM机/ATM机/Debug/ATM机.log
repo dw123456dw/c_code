@@ -1,0 +1,16 @@
+﻿  changepassword.c
+  checkmoney.c
+  deposit.c
+  main.c
+  readfile.c
+  savehistory.c
+D:\git\ATM机\ATM机\savehistory.c(13,18): warning C4129: “g”: 不可识别的字符转义序列
+D:\git\ATM机\ATM机\savehistory.c(13,18): warning C4129: “A”: 不可识别的字符转义序列
+  searchID.c
+  searchpassword.c
+  test.c
+  transfermoney.c
+  withdraw.c
+  writetofile.c
+  正在生成代码...
+  ATM机.vcxproj -> D:\git\ATM机\Debug\ATM机.exe
