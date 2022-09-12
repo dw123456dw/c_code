@@ -1,0 +1,13 @@
+﻿  test.cpp
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(10,8): error C2131: 表达式的计算结果不是常数
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(10,8): message : 因读取超过生命周期的变量而失败
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(10,8): message : 请参见“n”的用法
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(11,8): error C2131: 表达式的计算结果不是常数
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(11,8): message : 因读取超过生命周期的变量而失败
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(11,8): message : 请参见“n”的用法
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(15,8): error C3863: 不可指定数组类型“int [n]”
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(26,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int [n]”
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(26,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int [n]”
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(33,16): error C3863: 不可指定数组类型“int [n]”
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(8,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\git\21061231147 test 9_6\21061231147 test 9_6\test.cpp(20,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
