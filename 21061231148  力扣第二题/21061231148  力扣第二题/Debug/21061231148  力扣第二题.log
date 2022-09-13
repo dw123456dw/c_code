@@ -1,0 +1,7 @@
+﻿  test.c
+D:\git\21061231095单链表\21061231095单链表\test.c(30,26): warning C4133: “=”: 从“ListNode *”到“ListNode *”的类型不兼容
+D:\git\21061231095单链表\21061231095单链表\test.c(31,26): warning C4133: “=”: 从“ListNode *”到“ListNode *”的类型不兼容
+D:\git\21061231095单链表\21061231095单链表\test.c(34,22): warning C4133: “=”: 从“ListNode *”到“ListNode *”的类型不兼容
+D:\git\21061231095单链表\21061231095单链表\test.c(55,33): warning C4133: “=”: 从“ListNode *”到“ListNode *”的类型不兼容
+D:\git\21061231095单链表\21061231095单链表\test.c(59,30): warning C4133: “=”: 从“ListNode *”到“ListNode *”的类型不兼容
+  21061231148  力扣第二题.vcxproj -> D:\git\21061231148  力扣第二题\Debug\21061231148  力扣第二题.exe
