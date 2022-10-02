@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\git\21061231168 vector 测试\21061231168 vector 测试\test.cpp(45,16): warning C4018: “<”: 有符号/无符号不匹配
+D:\git\21061231168 vector 测试\21061231168 vector 测试\test.cpp(51,20): warning C4018: “<”: 有符号/无符号不匹配
+  21061231168 vector 测试.vcxproj -> D:\git\21061231168 vector 测试\Debug\21061231168 vector 测试.exe
