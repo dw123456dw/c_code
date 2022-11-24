@@ -1,0 +1,4 @@
+﻿  test.cpp
+test.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Sample<int>::insertSort<struct Less<int> >(struct Less<int>)" (??$insertSort@U?$Less@H@@@?$Sample@H@@QAEXU?$Less@H@@@Z)，函数 "public: void __thiscall Sample<int>::sort<struct Less<int> >(void)" (??$sort@U?$Less@H@@@?$Sample@H@@QAEXXZ) 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Sample<int>::bubbleSort<struct Less<int> >(struct Less<int>)" (??$bubbleSort@U?$Less@H@@@?$Sample@H@@QAEXU?$Less@H@@@Z)，函数 "public: void __thiscall Sample<int>::sort<struct Less<int> >(void)" (??$sort@U?$Less@H@@@?$Sample@H@@QAEXXZ) 中引用了该符号
+D:\mycode\c++code\21061231206  test  11_16\Debug\21061231206  test  11_16.exe : fatal error LNK1120: 2 个无法解析的外部命令
