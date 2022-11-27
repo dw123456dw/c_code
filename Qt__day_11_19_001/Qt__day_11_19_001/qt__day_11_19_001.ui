@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>Qt__day_11_19_001Class</class>
+ <widget class="QWidget" name="Qt__day_11_19_001Class" >
+  <property name="objectName" >
+   <string notr="true">Qt__day_11_19_001Class</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Qt__day_11_19_001</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="qt__day_11_19_001.qrc"/>
+ </resources>
+ <connections/>
+</UI>
