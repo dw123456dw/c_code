@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\mycode\c++code\21061231212      test   12_12\21061231212      test   12_12\源.cpp(47,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\mycode\c++code\21061231212      test   12_12\21061231212      test   12_12\源.cpp(64,19): warning C4018: “<=”: 有符号/无符号不匹配
+  21061231212      test   12_12.vcxproj -> D:\mycode\c++code\21061231212      test   12_12\Debug\21061231212      test   12_12.exe
