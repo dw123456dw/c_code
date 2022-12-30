@@ -1,329 +1,102 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
-//#include <iostream>
-// 
-//#include <algorithm>
+﻿//#include <iostream>
 //using namespace std;
-//const int N = 110;
-//int num[N][N];
-//int dp[N][N];
-//int n;
+//#include <vector>
+//template <typename T>
+//T searchmax(vector<T>& arr, int n)
+//{
+//	T max = arr[0];
+//	for (int i=1;i<n;i++)
+//	{
+//		if (arr[i]>max)
+//		{
+//			max = arr[i];
+//		}
+//	}
+//	return max;
+//}
 //int main()
 //{
-//    cin >> n;
-//    for (int i = 1; i <= n; i++) {
-//        for (int j = 1; j <= i; j++) {
-//            cin >> num[i][j];
-//        }
+//	double d;
+//	vector<double> ret;
+//
+//	for (int i = 0; i < 5; i++)
+//	{
+//		cin >> d;
+//		ret.push_back(d);
+//	}
+//	d = searchmax(ret, 5);
+//	cout << d;
+//	return 0;
+//}
+//#include <iostream>
+//​using namespace std;
+//class Complex {
+//private:
+//    double real;
+//    double image;
+//public:
+//    Complex() {}
+//    Complex(double a, double b) {
+//        real = a;
+//        image = b;
 //    }
-//
-//    // dp[i][j] = max(dp[i-1][j-1],dp[i-1][j]) + num[i][j];
-//
-//    for (int i = 1; i <= n; i++) {
-//        for (int j = 1; j <= i; j++) {
-//            dp[i][j] = max(dp[i - 1][j - 1], dp[i - 1][j]) + num[i][j];
-//        }
+//    void setRI(double a, double b) {
+//        real = a;
+//        image = b;
 //    }
-//    //int res = 0;
-//    //for (int i = 1; i <= n; i++) {
-//    //    res = max(dp[n][i], res);
-//    //}
-//    //cout << res;
-//
-//    for (int i = 1; i <= n; i++) {
-//        for (int j = 1; j <= i; j++) {
-//            cout << dp[i][j] << " ";
-//        }
-//        cout << endl;
+//    double getReal() {
+//        return real;
 //    }
-//
-//    cout << dp[n][(n/2)+1];
-//
+//    double getImage() {
+//        return image;
+//    }
+//    void print() {
+//        if (image > 1)
+//            cout << real << "+" << image << "i" << endl;
+//        if (image < 1)
+//            cout << real << "" << image << "i" << endl;
+//    }
+//    friend Complex add(Complex, Complex);
+//};
+//Complex add(Complex c1, Complex c2) {
+//    Complex c3;
+//    c3.real = c1.real + c2.real;
+//    c3.image = c1.image + c2.image;
+//    return c3;
+//}
+//int main()
+//{
+//    Complex c1(19,-0.86),c2,c3;
+//    c2.setRI(90,120.12);
+//    c3 = add(c1,c2);
+//    cout << "复数一：";
+//    c1.print();
+//    cout << "复数二：";
+//    c2.print();
+//    cout << "相加后：";
+//    c3.print();
 //    return 0;
 //}
 
 //#include <iostream>
 //using namespace std;
-//const int N=110;
-//int num[N][N];
-//int dp[N][N];
-//int main()
-//{
-//  // 请在此输入您的代码
-//  int n;
-//  cin >> n;
-//  for(int i=1;i<=n;i++)
-//  {
-//    for(int j=1;j<=i;j++)
-//    {
-//      cin >> num[i][j];
-//    }
-//  }
-//
-//  for(int i=1;i<=n;i++)
-//  {
-//    for(int j=1;j<=i;j++)
-//    {
-//      dp[i][j]=max(dp[i-1][j-1],dp[i-1][j])+num[i][j];
-//    }
-//  }
-//
-//  for (int i = 1; i <= n; i++)
-//  {
-//      for (int j = 1; j <= i; j++)
-//      {
-//          cout << " " << dp[i][j];
-//      }
-//      cout << endl;
-//  }
-//
-//  cout << dp[n][(n/2)+1];
-//  return 0;
-//}
-
-//#include <iostream>
-//using namespace std;
-//
-//const int N = 210;
-//
-//int arr[N];
-//void swap(int* a, int* b)
-//{
-//	int temp = *a;
-//	*a = *b;
-//	*b = temp;
-//}
-//
-//
-//void mysort(int* arr, int n)
-//{
-//	for (int i = 0; i < n; i++)
-//	{
-//		for (int j = 0; j < n - i - 1; j++)
-//		{
-//			if (arr[j] > arr[j + 1])
-//			{
-//				swap(&arr[j], &arr[j + 1]);
-//			}
-//		}
-//	}
-//}
 //
 //int main()
 //{
-//	int n = 0;
-//	cin >> n;
-//
-//	for (int i = 0; i < n; i++)
+//	int arr[5] = { 0 };
+//	int pos = 0;
+//	for (int i = 0; i < 32; i++)
 //	{
-//		cin >> arr[i];
-//	}
-//
-//	mysort(arr, n);
-//
-//	for (int i = 0; i < n; i++)
-//	{
-//		cout << arr[i] << " ";
-//	}
-//	return 0;
-//}
-
-//#include <stdio.h>
-//
-//const double PI = 3.14159265358979323;
-//
-//int main()
-//{
-//	int n;
-//	scanf("%d", &n);
-//	double s = PI * n * n;
-//
-//	printf("%.7f", s);
-//
-//
-//	return 0;
-//}
-//#include <iostream>
-//using namespace std;
-//const int N = 1010;
-//int arr[N];
-//
-//int main()
-//{
-//	int n;
-//	cin >> n;
-//
-//	for (int i = 0; i < n; i++)
-//	{
-//		cin >> arr[i];
-//	}
-//	int target;
-//	cin >> target;
-//
-//	int ans = -1;
-//	for (int i = 0; i < n; i++)
-//	{
-//		if (arr[i] == target)
-//		{
-//			ans = i+1;
-//			break;
-//		}
-//	}
-//
-//	cout << ans;
-//
-//	return 0;
-//}
-
-//#include <iostream>
-//using namespace std;
-//
-//int arr[10];
-//
-//int main()
-//{
-//	arr[0] = 153;
-//	int pos = 1;
-//
-//	for (int i = 154; i < 1000; i++)
-//	{
-//		int a, b, c, temp = i;
+//		int temp = i;
 //		while (temp)
 //		{
-//			c = temp % 10;
-//			temp /= 10;
-//			b = temp % 10;
-//			temp /= 10;
-//			a = temp % 10;
-//			temp /= 10;
-//		}
-//		if (a * a * a + b * b * b + c * c * c == i)
-//		{
-//			arr[pos++] = i;
-//		}
-//	}
-//
-//	for (int i = 0; i < pos; i++)
-//	{
-//		cout << arr[i] << endl;
-//	}
-//
-//	return 0;
-//}
-
-//#include <iostream>
-//using namespace std;
-//const int N = 40;
-//
-//int arr[N][N];
-//
-//
-//
-//
-//int main()
-//{
-//	int n;
-//	cin >> n;
-//
-//	arr[0][0] = 1;
-//	arr[1][0] = 1;
-//	arr[1][1] = 1;
-//
-//	for (int i = 2; i < N; i++)
-//	{
-//		arr[i][0] = 1;
-//		arr[i][i] = 1;
-//
-//		for (int j = 1; j <= i; j++)
-//		{
-//			arr[i][j] = arr[i - 1][j - 1] + arr[i - 1][j];
-//		}
-//	}
-//
-//	for (int i = 0; i < n; i++)
-//	{
-//		for (int j = 0; j <= i; j++)
-//		{
-//			cout << arr[i][j] << " ";
-//		}
-//		cout << endl;
-//	}
-//
-//	return 0;
-//}
-
-//#include <iostream>
-//using namespace std;
-//#include <string>
-//
-//bool isnum(string s)
-//{
-//	int i = 0, j = s.size() - 1;
-//	while (s[i] == s[j] && i <= j)
-//	{
-//		i++;
-//		j--;
-//	}
-//	if (i <= j)
-//	{
-//		return false;
-//	}
-//	else
-//	{
-//		return true;
-//	}
-//}
-//int ret[100];
-//
-//int main()
-//{
-//	int pos = 0;
-//	for (int i = 1000; i < 10000; i++)
-//	{
-//		if (isnum(to_string(i)))
-//		{
-//			ret[pos++] = i;
-//		}
-//	}
-//
-//	for (int i = 0; i < pos; i++)
-//	{
-//		cout << ret[i] << endl;;
-//	}
-//
-//	return 0;
-//}
-
-//#include <iostream>
-//using namespace std;
-//char arr[30][30];
-//
-//int main()
-//{
-//	string s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//	int m, n;
-//	cin >> n >> m;
-//
-//	int pos = 0;
-//	for (int i = 0; i < 26; i++)
-//	{
-//		for (int j = i; j < 26; j++)
-//		{
-//			arr[i][j] = s[pos++];
+//			arr[pos++] = temp % 2;
+//			temp /= 2;
 //		}
 //		pos = 0;
-//	}
-//	for (int i=1;i<=26;i++)
-//	{
-//		for (int j=0;j<i;j++)
+//		for (int j = 4; j >= 0; j--)
 //		{
-//			arr[i][j] = arr[j][i];
-//		}
-//	}
-//	for (int i = 0; i < n; i++)
-//	{
-//		for (int j = 0; j < m; j++)
-//		{
-//			cout << arr[i][j];
+//			cout << arr[j];
 //		}
 //		cout << endl;
 //	}
@@ -332,103 +105,93 @@
 
 //#include <iostream>
 //using namespace std;
-//#include <string>
+//long long arr[100000010];
 //
-//#define max 100
-//
-//string to_String(int n)
-//{
-//	int m = n;
-//	int i = 0, j = 0;
-//	char s[max];
-//	char ss[max];
-//	while (m > 0)
-//	{
-//		s[i++] = m % 10 + '0';
-//		m /= 10;
-//	}
-//	s[i] = '\0';
-//
-//	i = i - 1;
-//	while (i >= 0)
-//	{
-//		ss[j++] = s[i--];
-//	}
-//	ss[j] = '\0';
-//
-//	return ss;
-//}
-//
-//bool isnum(string s)
-//{
-//	int i = 0, j = s.size() - 1;
-//	while (s[i++] == s[j++] && i <= j)
-//	if (i <= j)
-//	{
-//		return false;
-//	}
-//	else
-//	{
-//		return true;
-//	}
-//}
-//int ret[100];
 //int main()
 //{
 //	int n;
 //	cin >> n;
-//	int ans = 0;
-//	int pos = 0;
-//	for (int i = 100000; i < 1000000; i++)
+//	if (n == 0)
 //	{
-//		
-//		if (isnum(to_String(i)))
-//		{
-//			string s = to_String(i);
-//			for (int j = 0; j < s.size(); j++)
-//			{
-//				ans += s[j]-'0';
-//			}
-//			if (ans == n)
-//			{
-//				ret[pos++] = i;
-//			}
-//			ans = 0;
-//		}
+//		cout << 0;
+//		return 0;
 //	}
-//	for (int i = 0; i < pos; i++)
+//	for (int i = 1; i <= n; i++)
 //	{
-//		cout << ret[i] << endl;;
+//		arr[i] = arr[i - 1] + i+1;
 //	}
+//
+//	cout << arr[n-1]+1;
 //	return 0;
 //}
 
+//#include <iostream>
+//using namespace std;
+//#include <vector>
+//#include <algorithm>
+//int main()
+//{
+//    // 请在此输入您的代码
+//    int n;
+//    cin >> n;
+//    vector<int> ret(n);
+//
+//    for (int i = 0; i < n; i++)
+//    {
+//        cin >> ret[i];
+//    }
+//
+//    sort(ret.begin(), ret.end());
+//
+//    int a = ret[1] - ret[0];
+//    int ans = ret[n-1] / a;
+//    cout << ans;
+//    return 0;
+//}
+
+//75BCD15
 #include <iostream>
 using namespace std;
-
+#include <string>
+#include <cmath>
 int main()
 {
-	int n, temp;
-	cin >> n;
-	int max = INT_MIN, min = INT_MAX, sum = 0;
+	string s;
+	cin >> s;
+	long long ans = 0;
+	int n = s.size() - 1;
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < s.size(); i++)
 	{
-		cin >> temp;
-		if (temp > max)
+		if (s[i] == 'A')
 		{
-			max = temp;
+			ans += 10 * pow(16,n--);
 		}
-		if (temp < min)
+		else if (s[i] == 'B')
 		{
-			min = temp;
+			ans += 11 * pow(16, n--);
 		}
-		sum += temp;
+		else if (s[i] == 'C')
+		{
+			ans += 12 * pow(16, n--);
+		}
+		else if (s[i] == 'D')
+		{
+			ans += 13 * pow(16, n--);
+		}
+		else if (s[i] == 'E')
+		{
+			ans += 14 * pow(16, n--);
+		}
+		else if (s[i] == 'F')
+		{
+			ans += 15 * pow(16, n--);
+		}
+		else
+		{
+			ans += (s[i]-'0') * pow(16, n--);
+		}
 	}
-
-	cout << max << endl;
-	cout << min << endl;
-	cout << sum << endl;
-
+	cout << ans;
 	return 0;
 }
