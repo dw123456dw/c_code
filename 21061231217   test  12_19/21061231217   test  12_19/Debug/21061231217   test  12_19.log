@@ -1,0 +1,11 @@
+﻿  test.cpp
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(159,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(162,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(164,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(166,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(168,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(170,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(172,28): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(174,38): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+D:\mycode\c++code\21061231217   test  12_19\21061231217   test  12_19\test.cpp(176,9): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  21061231217   test  12_19.vcxproj -> D:\mycode\c++code\21061231217   test  12_19\Debug\21061231217   test  12_19.exe
