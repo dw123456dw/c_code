@@ -1,0 +1,4 @@
+﻿  222.cpp
+D:\mycode\c++code\21061231222  test   1_1\21061231222  test   1_1\222.cpp(8,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\mycode\c++code\21061231222  test   1_1\21061231222  test   1_1\222.cpp(20): warning C4715: “repeatedCharacter”: 不是所有的控件路径都返回值
+  21061231222  test   1_1.vcxproj -> D:\mycode\c++code\21061231222  test   1_1\Debug\21061231222  test   1_1.exe
