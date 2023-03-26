@@ -1,0 +1,4 @@
+﻿  test.c
+D:\mycode\c++code\21061231243   test  3_24\21061231243   test  3_24\test.c(7,30): warning C4101: “tid”: 未引用的局部变量
+D:\mycode\c++code\21061231243   test  3_24\21061231243   test  3_24\test.c(7,20): warning C4101: “nthreads”: 未引用的局部变量
+  21061231243   test  3_24.vcxproj -> D:\mycode\c++code\21061231243   test  3_24\Debug\21061231243   test  3_24.exe
