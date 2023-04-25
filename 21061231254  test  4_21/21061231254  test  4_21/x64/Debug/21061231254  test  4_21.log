@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+D:\mycode\c++code\21061231254  test  4_21\21061231254  test  4_21\FileName.cpp(13,13): warning C4849: “collapse”指令中忽略 OpenMP“parallel for”子句
+D:\mycode\c++code\21061231254  test  4_21\21061231254  test  4_21\FileName.cpp(8,5): warning C4101: “i”: 未引用的局部变量
+  21061231254  test  4_21.vcxproj -> D:\mycode\c++code\21061231254  test  4_21\x64\Debug\21061231254  test  4_21.exe
