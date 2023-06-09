@@ -1,0 +1,8 @@
+﻿  FileName.c
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(13,8): warning C4047: “初始化”:“char *”与“char **”的间接级别不同
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(14,8): warning C4047: “初始化”:“char *”与“char **”的间接级别不同
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(29,22): warning C4047: “函数”:“char **”与“char [1]”的间接级别不同
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(29,20): warning C4024: “stringcompare”: 形参和实参 1 的类型不同
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(29,28): warning C4047: “函数”:“char **”与“char [4]”的间接级别不同
+D:\mycode\c++code\21061231267   string各类函数\21061231267   string各类函数\FileName.c(29,23): warning C4024: “stringcompare”: 形参和实参 2 的类型不同
+  21061231267   string各类函数.vcxproj -> D:\mycode\c++code\21061231267   string各类函数\x64\Debug\21061231267   string各类函数.exe
